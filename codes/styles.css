@@ -1,4 +1,22 @@
-.error {
-    color: red;
-    font-size: 14px;
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumbnails {
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#mainImage {
+    margin-top: 20px;
+    max-width: 400px; /* Ajusta el tamaño máximo según sea necesario */
+    height: auto;
 }
